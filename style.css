@@ -1054,3 +1054,32 @@ background:#111;
 }
 
 }
+/* HERO MOBILE POLISH */
+
+@media(max-width:768px){
+
+.hero{
+    padding-top:40px;
+}
+
+.hero-image-area{
+    margin-bottom:25px;
+}
+
+.hero-content h1{
+    line-height:1.15;
+}
+
+.hero-description{
+    margin-top:18px;
+}
+
+.hero-buttons{
+    margin-top:25px;
+}
+
+.hero-stats{
+    margin-top:30px;
+}
+
+}
