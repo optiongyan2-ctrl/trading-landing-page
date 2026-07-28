@@ -1012,3 +1012,45 @@ background:#111;
     transform:scale(1.02);
 
 }
+/* FINAL HERO CIRCLE IMAGE FIX */
+
+.hero-image-area{
+    order:-1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.hero-image-card{
+    width:260px !important;
+    height:260px !important;
+    border-radius:50% !important;
+    overflow:hidden !important;
+    border:3px solid rgba(212,175,55,0.6) !important;
+    box-shadow:0 0 35px rgba(212,175,55,0.35),
+               0 15px 40px rgba(0,0,0,0.6) !important;
+}
+
+
+.hero-image-card img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    border-radius:50% !important;
+}
+
+
+@media(min-width:900px){
+
+.hero-image-area{
+    order:0;
+}
+
+
+.hero-image-card{
+    width:360px !important;
+    height:360px !important;
+}
+
+}
