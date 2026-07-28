@@ -39,6 +39,8 @@
 
 <link rel="stylesheet" href="style.css">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="icon" href="assets/favicon.png">
 
 </head>
@@ -248,7 +250,7 @@ TRUST BAR
 ABOUT SECTION
 ======================= -->
 
-<section class="about">
+<section class="about" data-aos="fade-up">
 
     <div class="container about-grid">
 
@@ -339,7 +341,7 @@ ABOUT SECTION
 WHY JOIN
 ======================= -->
 
-<section class="why-join" id="why-join">
+<section class="why-join" id="why-join" data-aos="fade-up">
 
     <div class="container">
 
@@ -497,7 +499,7 @@ PERFORMANCE
 TESTIMONIALS
 ======================= -->
 
-<section class="testimonials">
+<section class="testimonials" data-aos="fade-up">
 
     <div class="container">
 
@@ -595,7 +597,7 @@ TESTIMONIALS
 FAQ
 ======================= -->
 
-<section class="faq">
+<section class="faq" data-aos="fade-up">
 
     <div class="container">
 
@@ -743,7 +745,14 @@ FOOTER
     </div>
 
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
 <script src="script.js"></script>
 
 </body>
