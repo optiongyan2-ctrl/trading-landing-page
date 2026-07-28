@@ -975,6 +975,16 @@ background:#111;
     margin-bottom:30px;
 
 }
+    /* Hero Image Premium Circle */
+
+.hero-image-area{
+
+    order:-1;
+    display:flex;
+    justify-content:center;
+    margin-bottom:30px;
+
+}
 
 
 .hero-image-card{
